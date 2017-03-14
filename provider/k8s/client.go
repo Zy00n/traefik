@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"time"
 
+	"github.com/containous/traefik/log"
 	"k8s.io/client-go/1.5/kubernetes"
 	"k8s.io/client-go/1.5/pkg/api"
 	"k8s.io/client-go/1.5/pkg/api/v1"
